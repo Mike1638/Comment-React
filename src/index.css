@@ -1,0 +1,56 @@
+.wrapper {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+}
+
+.wrapperinput {
+    border: 1px solid red;
+}
+
+.wrapperinput .winput {
+    padding: 20px;
+}
+
+.wrapperinput .winput .nameinput {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapperinput .winput .nameinput .ninput {
+    width: 350px;
+    outline: none;
+}
+
+.wrapperinput .winput .contentinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperinput .winput .contentinput .cinput {
+    width: 350px;
+    height: 200px;
+    resize: none;
+    outline: none;
+}
+
+.wrapperinput .winput .buttoninput {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wrapperinput .winput .buttoninput .binput {
+    background-color: aqua;
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+    color: white;
+}
